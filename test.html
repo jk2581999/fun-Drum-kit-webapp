@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="btn" onclick="fun('a')" >a</button>
+    <button class="btn" onclick="fun('b')">b</button>
+    <script>
+        var a=new Audio("sounds/song.mp3");
+        var b=new Audio("sounds/song.mp3");
+        // function fun2(){
+        //     a=new Audio("sounds/song.mp3");
+        // }
+        
+        function fun(arg){
+           if(arg=='a'){
+                a.play();
+           }
+           else if(arg=='b')
+            b.play();
+        }
+    </script>
+</body>
+</html>
